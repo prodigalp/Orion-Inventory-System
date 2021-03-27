@@ -1,0 +1,161 @@
+@font-face {
+  font-family: eyestrain;
+  src: url("../fontawesome/webfonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+img {
+  display: block;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: eyestrain;
+  background: url("../img/logo/photo-1517704965295-39e7ab985424.jfif") no-repeat center center fixed;
+  background-size: cover;
+  overflow: auto;
+}
+
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 97vh;
+}
+
+#wrapper .loginLeft {
+  border-radius: 10px;
+  border: 6px SOLID #fff;
+  padding: 10px;
+  width: 38%;
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
+}
+
+#wrapper .loginLeft .logImg {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: calc(50% - 50px);
+  top: -55%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border: 5px SOLID #fff;
+  -webkit-box-shadow: 0 0 1em black, 0 0 4em #fff;
+          box-shadow: 0 0 1em black, 0 0 4em #fff;
+}
+
+#wrapper .loginLeft form {
+  padding: 10px;
+  background: linear-gradient(120deg, #0578a5, #fff);
+  margin: 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 2px SOLID #fff;
+  text-align: center;
+}
+
+#wrapper .loginLeft form p {
+  background: #042d63;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  letter-spacing: 2px;
+}
+
+#wrapper .loginLeft form .formData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#wrapper .loginLeft form .formData input[type="text"],
+#wrapper .loginLeft form .formData input[type="password"] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#wrapper .loginLeft form .formData input[type="text"]:hover,
+#wrapper .loginLeft form .formData input[type="password"]:hover {
+  background: #ffff00;
+}
+
+#wrapper .loginLeft form .btnSnd {
+  margin-top: 7px;
+  background: #042d63;
+  width: 50%;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#wrapper .loginLeft form .btnSnd:hover {
+  color: #ffff00;
+  background: #000;
+}
+
+footer p {
+  margin: 0px;
+  text-align: center;
+  padding: 0px;
+}
+/*# sourceMappingURL=decor.css.map */

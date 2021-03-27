@@ -1,0 +1,335 @@
+@font-face {
+  font-family: eyestrain;
+  src: url("../fontawesome/webfonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: eyestrain;
+  background: linear-gradient(30deg, #02639b, #fff) no-repeat center center fixed;
+  overflow: auto;
+}
+
+#wrapper {
+  max-width: 800px;
+  width: 95%;
+  margin: 2% auto;
+  background: #fff;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 0.5em black;
+          box-shadow: 0 0 0.5em black;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#wrapper h2 {
+  background: #3f8ef5;
+  padding: 0px;
+  margin: 0px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px #000;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#wrapper form {
+  padding: 10px;
+  background: #fcefb0;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 5px SOLID #000;
+}
+
+#wrapper header {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+#wrapper .formData {
+  padding: 12px 15px;
+}
+
+#wrapper input[type="text"],
+#wrapper input[type="password"],
+#wrapper input[type="time"],
+#wrapper input[type="date"],
+#wrapper input[type="file"],
+#wrapper select,
+#wrapper textarea {
+  width: 100%;
+  padding: 12px 17px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#wrapper input[type="text"]:hover,
+#wrapper input[type="password"]:hover,
+#wrapper input[type="time"]:hover,
+#wrapper input[type="date"]:hover,
+#wrapper input[type="file"]:hover,
+#wrapper select:hover,
+#wrapper textarea:hover {
+  background: #000;
+  color: #fff;
+}
+
+#wrapper .btns {
+  background: #4caf50;
+  width: 25%;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+#wrapper .btns a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#wrapper .btns:hover {
+  background: #2b702d;
+  color: #fff;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  border-spacing: 0px;
+}
+
+th {
+  padding: 15px;
+  background: #306eff;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+td {
+  border-bottom: 1px SOLID #306eff;
+  padding: 5px 0px;
+}
+
+table img {
+  height: 30px;
+  width: 30px;
+}
+
+tr:nth-child(even) {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background: #d4d2ab;
+}
+
+tr:hover {
+  background: #eb0ab3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.warning {
+  width: 100%;
+  background: #f00;
+  padding: 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.warningText {
+  color: #ffff00;
+}
+
+header.warning p {
+  margin: 0px;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: blink;
+}
+
+.mainMes {
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.btnPart {
+  text-align: center;
+}
+
+.divActive {
+  background: #bafbcc;
+  padding: 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border: 2px SOLID #037523;
+}
+
+.upperImg {
+  text-align: center;
+}
+
+.upperImg img {
+  height: 110px;
+  width: 110px;
+  border-radius: 55px;
+  -webkit-border-radius: 55px;
+  -moz-border-radius: 55px;
+  -ms-border-radius: 55px;
+  -o-border-radius: 55px;
+  border: 5px SOLID #fff;
+  -webkit-box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.7);
+}
+
+.lowerFoot {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.lowerFoot p {
+  margin: 0px;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.recordPartUpper {
+  margin-bottom: 2%;
+}
+
+.recordPartUpper a,
+.recordPartLower a {
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
+
+.recordPartUpper a h3,
+.recordPartLower a h3 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.recordPartUpper img,
+.recordPartLower img {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.recordPartCol,
+.userPartCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.recordColOne,
+.recordColTwo,
+.recordColTri,
+.recordColFour,
+.recordColFive {
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+.recordColOne:hover,
+.recordColTwo:hover,
+.recordColTri:hover,
+.recordColFour:hover,
+.recordColFive:hover {
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: #306eff;
+  color: #fff;
+}
+
+.mainLogo {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/*# sourceMappingURL=employ.css.map */

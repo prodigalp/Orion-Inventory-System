@@ -1,0 +1,28 @@
+if(check old data for blank entry) {  // Check if not empty
+	if(blank entry found) {
+		echo("Display Error Message");
+	} else {
+		1if(!empty(dep2) && (!empty(pic2))) { /* if Dep2 and Pic2 is Active */
+			echo("Check for picture existence and use new Department");
+			checkNewPic();
+			newDept();
+
+		4} elseif(empty(dep2) && empty(pic2)) { /* if Dep2 and Pic2 is Blank */
+			echo("Retain Old Data");
+			oldData();
+
+		2} elseif(!empty(dep2) && empty(pic2)) { /* If Dep2 is Active and Pic2 is Blank */
+			echo ("Retain Old Data but use new Department");
+			oldData();
+			newDept();
+
+		3} elseif(empty(dep2) && !empty($pic2)) { // if Dep2 is Blank and Pic2 is Active
+			echo("Check for Picture existence and retain old department");
+			oldDept();
+			checkNewPic();
+		}
+	}
+}
+function checkNewPic();
+
+

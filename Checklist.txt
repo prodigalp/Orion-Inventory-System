@@ -1,0 +1,57 @@
+========================================
+Orion Hunter ver 1.0
+======================================== download Image and Icons for GUI
+Login Session 	[ OK ] [OK]
+-- Check for all the links --
+Profile 	[ OK ]  		(Member of the group)
+About 		[ OK ] 		(About the program 1.0)
+Userlist	[ OK ] [OK]
+Change Password	[ OK ] [OK]
+Frontpage-Out	[ OK ] [OK]
+Frontpage-Ajax 	[ OK ] [OK]
+Frontpage 	[ OK ] [OK]
+Login 		[ OK ] [OK]
+Create Logo	[ OK ] [OK]
+Settings 	[ OK ] [OK]
+Logout 		[ OK ] [OK]
+========================================
+RECORD MENU
+========================================
+Add Record 	[ OK ] [OK]
+Delete Record 	[ OK ] [OK]
+Update Record 	[ OK ] [OK]
+Search 		[ OK ] [OK]
+========================================
+USER MENU (Include user Image)
+========================================
+Add User 	[ OK ] [OK]
+Delete User 	[ OK ] [OK]
+Update User 	[ OK ] [OK]
+Search User	[ OK ] [OK]
+Password Reset 	[ OK ] [OK]
+========================================
+TABLES
+========================================
+tbluser 	[ OK ]
+tblhistory	[ OK ]
+tblcurrent 	[ OK ] 
+tbldowntime 	[ OK ]
+
+- Circle icons (PNG)
+- Relaxing Background Image
+- One Single Menu (Icons)
+- User type: (use combo box)
+- Regular, Agency, Guest, Maintenance 
+  (data: fname,mname,lname,username,password,gtype,role,pichref)
+- In Settings menu, display control records only, user control is for admin account)
+
+========================================
+
+- circle icon, bg image, fonts
+TTF = True Type Font
+OTF = Open Type Fonts
+WOFF = Web Open Font Format
+SVG Fonts /Shapes
+EOT = Embedded Open Type Fonts
+
+index.php, sindex.php, index_link.php, logout.php

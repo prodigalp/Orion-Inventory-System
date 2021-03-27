@@ -1,0 +1,240 @@
+@mixin marpan() {
+	margin: 0px;
+	padding: 0px;
+}
+
+$padding-all: 10px;
+$border-all: 10px;
+
+@font-face {
+	font-family: eyestrain;
+	src: url("../fontawesome/webfonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+body {
+	background: #000;
+	@include marpan();
+	font-family: eyestrain;
+	overflow: auto;
+}
+
+.wrapper {
+	width: 98%;
+	margin: 1% auto;
+	background: linear-gradient(rgb(63, 142, 245), #fff);
+	padding: $padding-all;
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 1);
+	overflow: hidden;
+	border-radius: $border-all;
+	-webkit-border-radius: $border-all;
+	-moz-border-radius: $border-all;
+	-ms-border-radius: $border-all;
+	-o-border-radius: $border-all;
+}
+
+header {
+	background: #306eff;
+	color: #fff;
+	padding: $border-all;
+	border-radius: $border-all;
+	-webkit-border-radius: $border-all;
+	-moz-border-radius: $border-all;
+	-ms-border-radius: $border-all;
+	-o-border-radius: $border-all;
+	display: flex;
+	justify-content: space-between;
+
+	.headerProblem {
+		flex: 4;
+		background: rgb(2, 99, 155);
+		text-align: center;
+
+		span {
+			background: #000;
+			color: #fff;
+			letter-spacing: 2px;
+			border-radius: 10px;
+			padding: 10px;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			-ms-border-radius: 10px;
+			-o-border-radius: 10px;
+			border: 2px SOLID #fff;
+		}
+	}
+
+	.headerID {
+		flex: 1;
+		background: rgb(63, 142, 245);
+		text-align: center;
+	}
+}
+
+.upperNavigate {
+	background: #fff;
+	margin-top: 1%;
+	border-radius: $border-all;
+	-webkit-border-radius: $border-all;
+	-moz-border-radius: $border-all;
+	-ms-border-radius: $border-all;
+	-o-border-radius: $border-all;
+
+	ul {
+		display: flex;
+		list-style-type: none;
+		@include marpan();
+
+		li {
+			flex: 1;
+			background: rgb(63, 142, 245);
+			text-align: center;
+			padding: $border-all;
+
+			a {
+				text-decoration: none;
+				color: #fff;
+				text-transform: uppercase;
+				letter-spacing: 1.5px;
+			}
+		}
+	}
+}
+
+section.triCol {
+	background: #fff;
+	padding: $padding-all;
+	display: flex;
+	margin-top: 1%;
+	justify-content: space-between;
+
+	.colOne {
+		// flex: 2;
+		flex-basis: 48.5%;
+		background: rgb(5, 252, 128);
+		padding: $padding-all;
+		order: 2;
+
+		h3 {
+			@include marpan();
+			text-align: center;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 1.3px;
+			padding: 5px;
+			background: rgb(2, 134, 68);
+			padding: 10px;
+		}
+	}
+
+	.colTwo {
+		// flex: 1;
+		flex-basis: 25%;
+		padding: $padding-all;
+		background: #f046ff;
+		color: #fff;
+		order: 1;
+
+		h3 {
+			@include marpan();
+			text-align: center;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 1.3px;
+			padding: 5px;
+			background: #802688;
+			padding: 10px;
+		}
+	}
+
+	.colTri {
+		// flex: 1;
+		flex-basis: 25%;
+		background: #eaff2a;
+		padding: $padding-all;
+		order: 3;
+
+		h3 {
+			@include marpan();
+			text-align: center;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 1.3px;
+			padding: 5px;
+			background: #687212;
+			padding: 10px;
+		}
+	}
+}
+
+section.middleCol {
+	background: #fff;
+	margin-top: 1%;
+	text-align: center;
+
+	p {
+		text-transform: uppercase;
+		background: #306eff;
+		padding: 10px;
+	}
+}
+
+article.lowerCol {
+	background: #fff;
+	padding: 10px;
+	display: flex;
+	background: rgb(63, 142, 245);
+	justify-content: center;
+
+	.lowerOne {
+		flex: 1;
+		text-align: center;
+		background: #fff;
+		border-right: 10px SOLID rgb(63, 142, 245);
+
+		p {
+			font-weight: bold;
+		}
+	}
+
+	.lowerTwo {
+		flex: 1;
+		text-align: center;
+		background: #fff;
+
+		p {
+			font-weight: bold;
+		}
+	}
+}
+
+footer {
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	background: rgb(63, 142, 245);
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-ms-border-radius: 0 0 10px 10px;
+	-o-border-radius: 0 0 10px 10px;
+}
+
+footer p {
+	color: #fff;
+	margin: 0px;
+	padding: 5px;
+}
